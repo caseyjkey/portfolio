@@ -1,0 +1,2 @@
+On arrow keydown, use .html() to change the description, title, and subheading of the project.
+Keydown info: https://stackoverflow.com/questions/19347269/jquery-keypress-arrow-keys
