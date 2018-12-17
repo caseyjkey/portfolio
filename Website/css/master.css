@@ -251,11 +251,17 @@ li {
   height: 900px;
 }
 
+.col #rightPic {
+  left: 0px;
+}
+
 #gallery .col {
   position: absolute;
   top: 80px;
   width: 640px;
 }
+
+
 
 .item {
   height: 480px;
@@ -305,12 +311,18 @@ li {
 }
 
 #leftCol p.body, #leftCol p.link {
-  color: #8c8f95;
+  color: #ddd;
   font-family: 'lucida grande', 'arial';
-  font-size: 12px;
+  font-size: 14px;
   line-height: 19px;
   padding-top: 30px;
   margin-bottom: 10px;
+}
+
+#leftCol ul {
+  font-size: 14px;
+  color: #ddd;
+  list-style: circle;
 }
 
 #leftCol p.link {
@@ -447,6 +459,9 @@ a.mover {
   top: 10px;
   left: 10px;
 }
+
+#left { background-position: 0px 0px; }
+#left:hover { background-position: -44px 0px; }
 
 #right { background-position: 0px -44px; }
 #right:hover { background-position: -44px -44px; }

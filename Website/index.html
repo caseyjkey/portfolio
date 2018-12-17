@@ -1,9 +1,10 @@
 <!DOCTYPE html>
   <html>
   <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Casey Key - Project Portfolio</title>
     <link rel="stylesheet" href="css/master.css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
   </head>
 
   <body>
@@ -20,10 +21,10 @@
           </div>
 
           <div id="nav">
-            <a class="resume" href="resume" id="resumeBtn">Resume</a>
-            <a class="about" href="about" id="aboutBtn">About</a>
+            <a class="resume" href="./resume/index.html" id="resumeBtn">Resume</a>
+            <a class="about" href="#" id="aboutBtn">About</a>
 
-            <a class="homeActive" href="work" id="workBtn">Work</a>
+            <a class="homeActive" href="#" id="workBtn">Work</a>
           </div>
         </div>
 
@@ -44,22 +45,22 @@
                   <img src="img/work/demo-01.png" alt="Title 1a" />
                 </div>
                 <div class="item" style="top: 710px">
-                  <img src="img/work/demo-02.png" alt="Title 1b" style="opacity: 0.3"/>
+                  <img src="img/work/demo-01.png" alt="Title 1b" style="opacity: 0.3"/>
                 </div>
                 <div class="item" style="top: 1220px">
                   <img src="img/work/demo-01.png" alt="Title 1c" style="opacity: 0.3"/>
                 </div>
               </div>
 
-              <div class="col" style="left: 660px">
+              <div class="col" style = "left: 660px">
                 <div class="item" style="top: 200px">
-                  <img src="img/work/demo-01.png" alt="Title 2a" style="opacity: 0.3"/>
+                  <img src="img/work/demo-02.png" alt="Title 2a" style="opacity: 0.3"/>
                 </div>
                 <div class="item" style="top: 710px">
                   <img src="img/work/demo-02.png" alt="Title 2b" style="opacity: 0.3"/>
                 </div>
                 <div class="item" style="top: 1220px">
-                  <img src="img/work/demo-01.png" alt="Title 2c" style="opacity: 0.3"/>
+                  <img src="img/work/demo-02.png" alt="Title 2c" style="opacity: 0.3"/>
                 </div>
               </div>
 
@@ -74,33 +75,24 @@
 
             <a href="#" id="up" class="mover" style="display: none"></a>
 
-            <div id="projectInfo" class="project">
+            <div id="whatspython" class="project">
               <h1>What's Python</h1>
               <p class="sub">Education July 2018</p>
               <p class="body">At the Northrop Grumman STEM
 camp, I lead seven high school
-students to make four different
-games over the course of a week
-to foster their interest in
-programming. Developed a
-curriculum, created the website
-whatspython.com​ for the course.</p>
+students to make four
+games over the course of a week. <ul><li>Developed a
+curriculum</li> <li>Created a course website using <u>Wordpress<u></li></p>
               <p class="link">
                 <a href="http://whatspython.com">Link to Website</a>
               </p>
             </div>
 
-            <div id="billboard" class ="project" style="display: none">
+            <div id="billboard" class="project" style="display: none">
               <h1>Top Musician Billboard</h1>
               <p class="sub">Music Web App September 2018</p>
-              <p class="body">Our curated list of
-musicians empower token holders to
-control top musician listings. Via
-an application fee, we prevent
-spam submissions. Token holders canvas
-contest applications to create a high quality
-list, this increases the value of ERT.
-Successful disputes pay out to the participants.
+              <p class="body">A list of top
+musicians curated by token holders.
 
 Musicians dream of having their songs and albums
 on the Billboard. Now they can apply for a fair
@@ -150,20 +142,11 @@ chance to be on our Top Musician Billboard.
 
       </div>
     </div>
+  <script src="./js/script.js"></script>
   <script>
   var yShift = -190;
-  var pos = 0;
-  arrange();
 
-  $("#right").click(function() {
-    pos += 1;
-    switch(pos) {
-      case 1:
-        $
-    }
-    $("#projectInfo h1").html("Top 100 Billboard");
-    $("#left").css({"display": "block", "left": "210px", "top": "240px"});
-  });
+  arrange();
 
   function arrange() {
     var winHeight = $(window).height();
