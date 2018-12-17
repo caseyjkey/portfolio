@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Casey Key - Project Portfolio</title>
+    <link rel="stylesheet" href="css/master.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div id="page">
+      <div id="header">
+
+        <div class-"inner">
+          <div id="logo"><img src="img/icons/logo.png" alt="Casey Key"/></div>
+          <div id="social">
+            <a class="github" href="http://www.github.com/Legitimate" target="_blank" title="Find me on Github">Find me on Github</a>
+            <a class="linkedin" href="http://www.linkedin.com/in/CaseyKey" target="_blank" title="Find me on LinkedIn">Find me on LinkedIn</a>
+            <a class="twitter" href="http://www.twitter.com/illbeanywhere" target="_blank" title="Find me on Twitter">Find me on Twitter</a>
+            <a class="fb" href="http://www.facebook.com/casey.key.167" target="_blank" title="Find me on Facebook">Find me on Facebook</a>
+          </div>
+
+          <div id="nav">
+            <a class="resume" href="./resume/index.html" id="resumeBtn">Resume</a>
+            <a class="about" href="#" id="aboutBtn">About</a>
+
+            <a class="homeActive" href="#" id="workBtn">Work</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="horizon">
+
+        <div id="main">
+          <div class="glowBg" id="bg2">&nbsp;</div>
+
+          <div id="glowTexture">&nbsp;</div>
+
+          <div id="gallery">
+            <div class="inner">
+
+              <div class="col">
+                <div class="item" style="top: 200px">
+                  <img src="img/work/demo-01.png" alt="Title 1a" />
+                </div>
+                <div class="item" style="top: 710px">
+                  <img src="img/work/demo-01.png" alt="Title 1b" style="opacity: 0.3"/>
+                </div>
+                <div class="item" style="top: 1220px">
+                  <img src="img/work/demo-01.png" alt="Title 1c" style="opacity: 0.3"/>
+                </div>
+              </div>
+
+              <div class="col" style = "left: 660px">
+                <div class="item" style="top: 200px">
+                  <img src="img/work/demo-02.png" alt="Title 2a" style="opacity: 0.3"/>
+                </div>
+                <div class="item" style="top: 710px">
+                  <img src="img/work/demo-02.png" alt="Title 2b" style="opacity: 0.3"/>
+                </div>
+                <div class="item" style="top: 1220px">
+                  <img src="img/work/demo-02.png" alt="Title 2c" style="opacity: 0.3"/>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <div id="leftCol">
+            <a href="#" id="left" class="mover" style="display: none"></a>
+
+            <a href="#" id="right" class="mover" style="left: 895px; top: 240px;"></a>
+            <a href="#" id="down" class="mover" style="left: 555px; top: 490px;"></a>
+
+            <a href="#" id="up" class="mover" style="display: none"></a>
+
+            <div id="whatspython" class="project">
+              <h1>What's Python</h1>
+              <p class="sub">Education July 2018</p>
+              <p class="body">At the Northrop Grumman STEM
+camp, I lead seven high school
+students to make four
+games over the course of a week. <ul><li>Developed a
+curriculum</li> <li>Created a course website using <u>Wordpress<u></li></p>
+              <p class="link">
+                <a href="http://whatspython.com">Link to Website</a>
+              </p>
+            </div>
+
+            <div id="billboard" class="project" style="display: none">
+              <h1>Top Musician Billboard</h1>
+              <p class="sub">Music Web App September 2018</p>
+              <p class="body">A list of top
+musicians curated by token holders.
+
+Musicians dream of having their songs and albums
+on the Billboard. Now they can apply for a fair
+chance to be on our Top Musician Billboard.
+              </p>
+              <p class="link">
+                <a href="https://etherradio.herokuapp.com/#!/landing">Link to Web App</a>
+              </p>
+            </div>
+
+            <div id="controls">
+              <div id ="grid">
+                <div class="line" style="height: 55px; opacity: 0.4;">&nbsp;</div>
+
+                <div class="line" style="height: 27px; opacity: 0.4;">&nbsp;</div>
+                <div class="line" style="height: 55px; opacity: 0.4;">&nbsp;</div>
+
+                <div class="line" style="height: 41px; opacity: 0.4;">&nbsp;</div>
+                <div class="line" style="height: 41px; opacity: 0.4;">&nbsp;</div>
+
+                <div class="line" style="height: 55px; opacity: 0.4;">&nbsp;</div>
+                <div class="line" style="height: 27px; opacity: 0.4;">&nbsp;</div>
+
+                <div class="line" style="height: 41px; opacity: 0.4;">&nbsp;</div>
+                <div class="line" style="height: 55px; opacity: 0.4;">&nbsp;</div>
+
+                <div class="line" style="height: 41px; opacity: 0.4;">&nbsp;</div>
+                <div class="line" style="height: 27px; opacity: 0.4;">&nbsp;</div>
+
+                <div id="tracker" style="height: 14px;">&nbsp;</div>
+              </div>
+              <div id="keys">
+                <a href="#" class="kup">Up</a>
+                <a href="#" class="kdown">Down</a>
+                <a href="#" class="kleft">Left</a>
+                <a href="#" class="kright">Right</a>
+              </div>
+            </div>
+
+          </div>
+
+          <div id="glowShadow">
+            <img src="img/bg/glow-shadow.png" />
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  <script src="./js/script.js"></script>
+  <script>
+  var yShift = -190;
+
+  arrange();
+
+  function arrange() {
+    var winHeight = $(window).height();
+
+    if (winHeight > 760) {
+      yShift = (((winHeight - 900)/2) - 110)
+      newHeight = (winHeight - yShift)
+      newHeight -= 60
+      $("#main").css("height", newHeight)
+    }
+
+    if (yShift < -190) {
+      yShift = -190;
+    }
+
+    $("#main").css("margin-top", yShift)
+  }
+
+  $(window).resize( function() {
+    arrange()
+  })
+  </script>
+  </body>
+  </html>
