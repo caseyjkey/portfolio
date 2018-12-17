@@ -1,0 +1,2 @@
+On arrow keydown, use .css() to move the update the centered project.
+Keydown info: https://stackoverflow.com/questions/19347269/jquery-keypress-arrow-keys
