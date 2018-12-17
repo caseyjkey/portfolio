@@ -4,7 +4,6 @@ body, html {
   padding: 0;
   background: url("../img/fremont.jpg");
   background-size: cover;
-<<<<<<< HEAD
   background-attachment: fixed;
   background-position: center;
 
@@ -16,24 +15,8 @@ body, html {
    padding: 40px;
    margin: auto;
    color: white;
-=======
-  background-attachment: fixed;
-  background-position: center;
-
-}
-
- .page-container {
-   background: rgba(0, 0, 0, 0.4);
-   width: 80%;
-   padding: 40px;
-   margin: auto;
-   color: white;
->>>>>>> bf871d4c3fc0cb1c086837bebc4adb76b3de7db2
    margin-top: 2%;
    margin-bottom: 2%;
-
-
-<<<<<<< HEAD
  }
 
 a {
@@ -93,67 +76,4 @@ a:hover {
    .card li {
      font-weight: 500;
    }
-
-=======
- }
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-a:hover {
-  color: grey;
-}
-
-.jumbotron {
-  background: rgba(0, 0, 0, 0.5);
-}
-.avi-container {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-.card {
-  background: rgba(0, 0, 0, 0.5);
-  margin-right: 10px;
-}
-
-.card li {
-  margin-left: 10px;
-  font-weight: 600;
-}
-.highlight {
-   color: white;
- }
-
- @media screen and (max-width: 800px) {
-   .avi-container {
-     width: 75%;
-     height: 75%;
-     border-radius: 50%;
-     margin-bottom: 10px;
-   }
-
-   .page-container {
-     background: rgba(0, 0, 0, 0);
-     width: 80%;
-     padding: 40px;
-     margin: auto;
-     color: white;
-     margin-top: 2%;
-     margin-bottom: 2%;
-   }
-
-   .card {
-     margin-top: 10px;
-     font-size: 12px;
-   }
-
-   .card li {
-     font-weight: 500;
-   }
-
->>>>>>> bf871d4c3fc0cb1c086837bebc4adb76b3de7db2
  }
